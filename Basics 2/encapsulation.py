@@ -12,4 +12,3 @@ print(player1.age)
 player2 = {'name': "Sarah", 'age':24}
 print(player2['name'])
 print(player2['age'])
-        
