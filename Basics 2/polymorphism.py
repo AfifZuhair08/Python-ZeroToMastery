@@ -39,8 +39,8 @@ archer1 = Archer("Blood", 80)
 def player_attack(char):
     char.attack()
 # SINGLE object call
-player_attack(wizard1)
-player_attack(archer1)
+# player_attack(wizard1)
+# player_attack(archer1)
 # or ARRAYS call
 for char in [wizard1, archer1]:
     char.attack()
