@@ -10,6 +10,6 @@ def testString(a):
 testString("Anything")
 
 # type 1
-help(testString)
+# help(testString)
 # type 2
 print(testString.__doc__)
