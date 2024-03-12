@@ -30,5 +30,6 @@ class Archer(User):
 # -----------------------------------------------------------
 # isinstance(instance, Class) //validate if the object is instance of the class
 wizard1 = Wizard("Merlin", 50)
-print(isinstance(wizard1, Wizard))
-print(isinstance(wizard1, object))
+print(wizard1.signIn())
+# print(isinstance(wizard1, Wizard))
+# print(isinstance(wizard1, object))
